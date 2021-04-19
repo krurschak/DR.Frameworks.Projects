@@ -10,10 +10,10 @@ namespace DR.Frameworks.Projects.Models
     {
         public Project() { }
 
-        public Project(Guid id, Guid creatorId, string name, string description, string iconClass, string iconColor, string iconBackgroundColor, short priority, IEnumerable<Tag> tags)
+        public Project(Guid id, Guid creatorUserId, string name, string description, string iconClass, string iconColor, string iconBackgroundColor, short priority, IEnumerable<Tag> tags)
         {
             Id = id;
-            CreatorId = creatorId;
+            CreatorUserId = creatorUserId;
             Name = name;
             Description = description;
             IconClass = iconClass;
@@ -24,7 +24,7 @@ namespace DR.Frameworks.Projects.Models
         }
 
         public Guid Id { get; set; }
-        public Guid CreatorId { get; set; }
+        public Guid CreatorUserId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public string IconClass { get; set; }
