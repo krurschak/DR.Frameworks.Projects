@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DR.Frameworks.Projects.Dto
+namespace DR.Frameworks.Projects.Models
 {
     public class Tag
     {

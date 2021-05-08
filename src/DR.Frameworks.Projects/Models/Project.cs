@@ -1,8 +1,6 @@
-﻿using DR.Frameworks.Projects.Dto;
-using DR.Packages.Mongo.Models;
+﻿using DR.Packages.Mongo.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DR.Frameworks.Projects.Models
 {
